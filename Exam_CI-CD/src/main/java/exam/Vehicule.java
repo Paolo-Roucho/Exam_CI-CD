@@ -32,7 +32,7 @@ public abstract class Vehicule {
 
         proprietaire.facture = quantity * typeEssence.prix;
     }
-    public boolean rouler() {
+    public boolean peutRouler() {
         if(quantiteEssence > 0 && proprietaire.facture == 0) {
             System.out.println("La voiture elle peut rouler là");
             return true;

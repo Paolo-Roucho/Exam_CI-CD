@@ -12,10 +12,10 @@ public class Main {
         moto.remplirEssence();
         voiture.remplirEssence(110);
 
-        proF1.payerFacture();
-        motar.payerFacture();
+        proF1.peutPayerFacture();
+        motar.peutPayerFacture();
 
-        voiture.rouler();
-        moto.rouler();
+        voiture.peutRouler();
+        moto.peutRouler();
     }
 }
