@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="060e717c-7042-47d2-81c4-95c61113bab9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exam/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exam/PersonneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exam/VehiculeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam_CI-CD.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Vehicule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam/Vehicule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Exam_CI-CD-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Exam_CI-CD-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exam/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exam/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exam/Personne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exam/Personne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exam/Vehicule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exam/Vehicule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +37,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -37,23 +55,121 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/thiba/Documents/EPSI/B3/Java/Exam_CI-CD/Exam_CI-CD",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/thiba/Documents/EPSI/B3/Java/Exam_CI-CD/Exam_CI-CD&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="garage" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="exam" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PersonneTest.donnerArgent">
+    <configuration name="PersonneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam_CI-CD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exam" />
+      <option name="MAIN_CLASS_NAME" value="exam.PersonneTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonneTest.donnerArgent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam_CI-CD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exam" />
+      <option name="MAIN_CLASS_NAME" value="exam.PersonneTest" />
+      <option name="METHOD_NAME" value="donnerArgent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehiculeTest.Vehicule" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam_CI-CD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exam" />
+      <option name="MAIN_CLASS_NAME" value="exam.VehiculeTest" />
+      <option name="METHOD_NAME" value="Vehicule" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehiculeTest.peutRouler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam_CI-CD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exam" />
+      <option name="MAIN_CLASS_NAME" value="exam.VehiculeTest" />
+      <option name="METHOD_NAME" value="peutRouler" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehiculeTest.remplirEssence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exam_CI-CD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exam" />
+      <option name="MAIN_CLASS_NAME" value="exam.VehiculeTest" />
+      <option name="METHOD_NAME" value="remplirEssence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonneTest.donnerArgent" />
+        <item itemvalue="JUnit.VehiculeTest.peutRouler" />
+        <item itemvalue="JUnit.VehiculeTest.remplirEssence" />
+        <item itemvalue="JUnit.VehiculeTest.Vehicule" />
+        <item itemvalue="JUnit.PersonneTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,6 +183,7 @@
       <workItem from="1669639195146" duration="372000" />
       <workItem from="1669639667166" duration="1384000" />
       <workItem from="1669642485706" duration="289000" />
+      <workItem from="1669644558165" duration="2710000" />
     </task>
     <servers />
   </component>
