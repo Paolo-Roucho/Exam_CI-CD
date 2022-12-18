@@ -13,12 +13,20 @@ public class Personne {
         this.facture = 0;
     }
 
-    public void payerFacture() {
+    public void donnerArgent(double argent) {
+        if (argent > 0) {
+            this.argent += argent;
+        }
+    }
+
+    public boolean peutPayerFacture() {
         if(argent - facture > 0) {
             argent -= facture;
             facture = 0;
+            return true;
         } else {
             System.out.println("Vous ne pouvez pas payer la facture, dépechez vous la banque va vous tomber dessus");
+            return false;
         }
     }
 }
