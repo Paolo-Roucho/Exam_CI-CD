@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="060e717c-7042-47d2-81c4-95c61113bab9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/exam/PersonneTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exam/VehiculeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam_CI-CD.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exam/Vehicule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exam/Vehicule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Exam_CI-CD-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Exam_CI-CD-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exam/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exam/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exam/Personne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exam/Personne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exam/Vehicule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exam/Vehicule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +166,8 @@
       <workItem from="1669639195146" duration="372000" />
       <workItem from="1669639667166" duration="1384000" />
       <workItem from="1669642485706" duration="289000" />
-      <workItem from="1669644558165" duration="2710000" />
+      <workItem from="1669644558165" duration="3821000" />
+      <workItem from="1671362537495" duration="971000" />
     </task>
     <servers />
   </component>
