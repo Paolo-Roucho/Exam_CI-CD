@@ -17,5 +17,7 @@ public class Main {
 
         voiture.peutRouler();
         moto.peutRouler();
+
+        System.out.println("Fin");
     }
 }
